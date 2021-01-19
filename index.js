@@ -45,8 +45,8 @@ anime
     targets: ".ml11 .line",
     translateX: [
       0,
-      document.querySelector(".ml11 .letters").getBoundingClientRect().width -
-        150,
+      document.querySelector(".ml11 .letters").getBoundingClientRect().width +
+        10,
     ],
     easing: "easeOutExpo",
     duration: 700,
